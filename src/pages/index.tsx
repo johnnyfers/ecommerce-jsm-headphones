@@ -1,5 +1,5 @@
-import { Cart, Footer, FooterBanner, HeroBanner, Layout, Navbar, Product } from "@/components";
-import { urlFor, client } from '@/lib/client'
+import { FooterBanner, HeroBanner, Product } from "@/components";
+import { client } from '@/lib/client'
 
 export default function Home({ products, bannerData }) {
   return (
@@ -15,7 +15,6 @@ export default function Home({ products, bannerData }) {
       </div>
 
       <FooterBanner footerBanner={bannerData && bannerData[0]} />
-      <Footer/>
     </>
   )
 }
