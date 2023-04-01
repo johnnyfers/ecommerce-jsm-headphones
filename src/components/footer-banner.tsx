@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 export default function FooterBanner({ footerBanner }) {
     const { discount, largeText1, largeText2, saleTime, smallText, midText, desc, product, buttonText, image } = footerBanner
+
     return (
         <div className="footer-banner-container">
             <div className="banner-desc">
